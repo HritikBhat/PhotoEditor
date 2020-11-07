@@ -750,6 +750,7 @@ public class PhotoEditor implements BrushViewChangeListener {
                         }
                         }
                         catch(Exception e){
+                            e.printStackTrace();
                             return null;
                         }
                     }
